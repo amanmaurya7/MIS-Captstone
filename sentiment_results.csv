@@ -1,0 +1,501 @@
+ComplaintID,Timestamp,Category,ComplaintText,Sentiment,CleanedText,VADER_Sentiment,VADER_Compound
+1,2024-10-26 14:30:15,Delivery,My package is over a week late and the tracking hasn't updated in days. This is unacceptable.,Negative,package week late tracking hasnt updated day unacceptable,Positive,0.357
+2,2024-10-26 18:45:10,Product,The build quality of the new X-1 speaker is terrible. It feels cheap and the sound crackles at high volume.,Negative,build quality new x speaker terrible feel cheap sound crackle high volume,Negative,-0.4767
+3,2024-10-27 09:12:05,Service,I was on hold with customer service for 50 minutes just to be disconnected. I am furious.,Negative,hold customer service minute disconnected furious,Negative,-0.5719
+4,2024-10-27 11:20:00,Billing,Why was I charged twice for my subscription this month? I need this fixed immediately.,Negative,charged twice subscription month need fixed immediately,Negative,-0.2023
+5,2024-10-28 15:05:30,Product,Just received my order and I'm thrilled! The product works even better than advertised. Five stars!,Positive,received order im thrilled product work even better advertised five star,Positive,0.7003
+6,2024-10-29 13:00:45,Service,Spoke with Maria in support and she was incredibly helpful and patient. She resolved my issue in minutes.,Positive,spoke maria support incredibly helpful patient resolved issue minute,Positive,0.7755
+7,2024-10-30 10:55:00,Delivery,The delivery driver left my fragile package on the porch in the pouring rain without ringing the bell.,Negative,delivery driver left fragile package porch pouring rain without ringing bell,Neutral,0.0
+8,2024-11-01 19:21:50,Product,The shirt I ordered is the wrong size and the color doesn't match the website picture.,Negative,shirt ordered wrong size color doesnt match website picture,Negative,-0.4767
+9,2024-11-02 11:10:25,Billing,I am trying to update my payment information but the website keeps giving me an error.,Negative,trying update payment information website keep giving error,Negative,-0.0772
+10,2024-11-03 16:40:00,General Inquiry,Just wanted to confirm the warranty period for the coffee machine I purchased.,Neutral,wanted confirm warranty period coffee machine purchased,Neutral,0.0
+11,2024-11-04 20:05:18,Product,"The battery on this laptop barely lasts two hours, even after a full charge. This is not what was promised.",Negative,battery laptop barely last two hour even full charge promised,Positive,0.3612
+12,2024-11-05 12:33:45,Service,Your chatbot is useless. It doesn't understand simple questions and I can't find a way to talk to a human.,Negative,chatbot useless doesnt understand simple question cant find way talk human,Negative,-0.4215
+13,2024-11-06 08:50:00,Delivery,My order arrived a day early! Excellent service.,Positive,order arrived day early excellent service,Positive,0.5719
+14,2024-11-07 14:00:30,Billing,I received a bill for a service I cancelled last month. Please correct this.,Negative,received bill service cancelled last month please correct,Positive,0.0772
+15,2024-11-08 17:25:00,Product,The software for the smart camera is buggy and crashes frequently.,Negative,software smart camera buggy crash frequently,Neutral,0.0
+16,2024-11-09 09:30:15,Service,The agent I spoke to was rude and dismissive. I'm very disappointed with the support I received.,Negative,agent spoke rude dismissive im disappointed support received,Negative,-0.5267
+17,2024-11-10 13:15:00,Delivery,"The box was completely crushed when it arrived. Luckily the item inside seems okay, but the packaging was poor.",Negative,box completely crushed arrived luckily item inside seems okay packaging poor,Negative,-0.1851
+18,2024-11-11 18:00:55,Product,This is the best vacuum cleaner I have ever owned. Amazing suction power.,Positive,best vacuum cleaner ever owned amazing suction power,Positive,0.8658
+19,2024-11-12 21:10:00,Billing,Could you please clarify a charge on my recent invoice? The reference number is 84321.,Neutral,could please clarify charge recent invoice reference number,Positive,0.3818
+20,2024-11-13 10:45:30,Service,No one has responded to the support ticket I raised three days ago.,Negative,one responded support ticket raised three day ago,Positive,0.4019
+21,2024-11-14 15:20:00,Product,The user manual is very confusing and poorly translated.,Negative,user manual confusing poorly translated,Negative,-0.2263
+22,2024-11-15 11:05:40,Delivery,I still have not received my order #98765. It was supposed to be here last Friday.,Negative,still received order supposed last friday,Neutral,0.0
+23,2024-11-16 16:50:00,Product,My new headphones stopped working after just one use.,Negative,new headphone stopped working one use,Negative,-0.2263
+24,2024-11-17 19:30:10,Service,The returns process is far too complicated. I shouldn't have to print three different forms.,Negative,return process far complicated shouldnt print three different form,Neutral,0.0
+25,2024-11-18 10:00:00,Billing,My refund was processed much faster than I expected. Thank you!,Positive,refund processed much faster expected thank,Positive,0.3612
+26,2024-11-19 14:45:00,Product,The fabric on the chair started pilling after only a few weeks.,Negative,fabric chair started pilling week,Neutral,0.0
+27,2024-11-20 12:00:15,Delivery,"Tracking says my parcel was delivered, but I never received it. Where is it?",Negative,tracking say parcel delivered never received,Neutral,0.0
+28,2024-11-21 09:10:00,Service,Your website is not mobile-friendly. It's very difficult to navigate on my phone.,Negative,website mobilefriendly difficult navigate phone,Negative,-0.3612
+29,2024-11-22 17:55:00,Product,"The product is fine, it does what it is supposed to do.",Neutral,product fine supposed,Positive,0.2023
+30,2024-11-23 20:25:30,Billing,There seems to be a mistake in my loyalty points calculation.,Negative,seems mistake loyalty point calculation,Positive,0.2732
+31,2024-11-24 11:35:00,Delivery,The item was delivered to my neighbor's house by mistake.,Negative,item delivered neighbor house mistake,Negative,-0.34
+32,2024-11-25 13:20:00,Product,The assembly instructions were missing from the box.,Negative,assembly instruction missing box,Negative,-0.296
+33,2024-11-26 16:00:45,Service,I tried calling three times and the line was always busy.,Negative,tried calling three time line always busy,Neutral,0.0
+34,2024-11-27 18:10:00,Product,The 'one-size-fits-all' hat is way too small.,Negative,onesizefitsall hat way small,Neutral,0.0
+35,2024-11-28 10:50:00,Billing,Requesting a copy of my invoice from last month.,Neutral,requesting copy invoice last month,Neutral,0.0
+36,2024-11-29 15:00:00,Delivery,Super fast shipping. I'm very impressed.,Positive,super fast shipping im impressed,Positive,0.7906
+37,2024-11-30 09:40:20,Product,The device overheats very quickly during normal use.,Negative,device overheats quickly normal use,Neutral,0.0
+38,2024-12-01 12:25:00,Service,The support staff needs better training. They couldn't answer my basic questions.,Negative,support staff need better training couldnt answer basic question,Positive,0.6808
+39,2024-12-02 14:15:55,Product,The app that controls this device logs me out constantly. It's very frustrating.,Negative,app control device log constantly frustrating,Negative,-0.4404
+40,2024-12-03 17:30:00,Billing,The promotional discount was not applied to my order total.,Negative,promotional discount applied order total,Neutral,0.0
+41,2024-12-04 11:00:00,Product,This cream caused a bad skin reaction. The ingredients should be listed more clearly.,Negative,cream caused bad skin reaction ingredient listed clearly,Negative,-0.2023
+42,2024-12-05 10:10:10,Delivery,Why is the shipping cost so high for such a small item?,Negative,shipping cost high small item,Neutral,0.0
+43,2024-12-06 13:45:00,Service,The live chat feature on your website is never available.,Negative,live chat feature website never available,Neutral,0.0
+44,2024-12-07 16:20:30,Product,"I love the design and color, but the performance is lacking.",Negative,love design color performance lacking,Positive,0.6369
+45,2024-12-08 19:00:00,Billing,"I was promised a refund within 5 business days, it has been 10.",Negative,promised refund within business day,Positive,0.3612
+46,2024-12-09 09:20:00,Product,The product arrived with a piece broken off.,Negative,product arrived piece broken,Negative,-0.4767
+47,2024-12-10 11:40:00,Service,Your company policies are very anti-consumer.,Negative,company policy anticonsumer,Neutral,0.0
+48,2024-12-11 15:05:15,Delivery,The delivery person was very courteous and professional.,Positive,delivery person courteous professional,Positive,0.5106
+49,2024-12-12 18:30:00,General Inquiry,What are the operating hours for your main store?,Neutral,operating hour main store,Neutral,0.0
+50,2024-12-13 10:00:00,Product,"It works, but it's much louder than I thought it would be.",Negative,work much louder thought would,Neutral,0.0
+51,2024-12-14 14:50:00,Billing,"The automatic renewal feature is deceptive. It should be opt-in, not opt-out.",Negative,automatic renewal feature deceptive optin optout,Neutral,0.0
+52,2024-12-15 17:10:25,Service,I sent an email inquiry last week and have received no response at all.,Negative,sent email inquiry last week received response,Neutral,0.0
+53,2024-12-16 09:55:00,Product,The picture on the box is misleading. The actual product is much smaller.,Negative,picture box misleading actual product much smaller,Negative,-0.4019
+54,2024-12-17 12:00:00,Delivery,The item was left in a secure location as I requested. Thank you.,Positive,item left secure location requested thank,Positive,0.5994
+55,2024-12-18 16:35:00,Product,"After the latest firmware update, my device is completely bricked.",Negative,latest firmware update device completely bricked,Neutral,0.0
+56,2024-12-19 19:00:45,Service,The hold music is incredibly annoying.,Negative,hold music incredibly annoying,Negative,-0.4576
+57,2024-12-20 11:20:00,Billing,I am still waiting for the credit to be applied to my account.,Negative,still waiting credit applied account,Positive,0.3818
+58,2024-12-21 13:40:10,Product,"The product itself is great, but the packaging it came in was damaged.",Negative,product great packaging came damaged,Positive,0.296
+59,2024-12-22 15:00:00,General Inquiry,Can this product be used outdoors?,Neutral,product used outdoors,Neutral,0.0
+60,2024-12-23 10:30:00,Delivery,My food order arrived cold and soggy.,Negative,food order arrived cold soggy,Neutral,0.0
+61,2024-12-24 09:00:00,Product,The 'long-lasting' battery died within a month.,Negative,longlasting battery died within month,Negative,-0.5574
+62,2024-12-26 18:15:00,Service,I'm tired of the automated responses. I need to speak with a real person about my issue.,Negative,im tired automated response need speak real person issue,Negative,-0.4404
+63,2024-12-27 14:05:00,Billing,The price at checkout was higher than the price listed on the product page.,Negative,price checkout higher price listed product page,Neutral,0.0
+64,2024-12-28 11:50:00,Product,The color faded significantly after the first wash.,Negative,color faded significantly first wash,Neutral,0.0
+65,2024-12-29 16:25:30,Delivery,"The courier claimed nobody was home, but I was here all day waiting.",Negative,courier claimed nobody home day waiting,Neutral,0.0
+66,2024-12-30 19:00:00,Product,"Fantastic product, it has made my daily routine so much easier.",Positive,fantastic product made daily routine much easier,Positive,0.7506
+67,2025-01-02 10:10:10,Service,Your return policy is a nightmare. It is not customer-friendly at all.,Negative,return policy nightmare customerfriendly,Neutral,0.0
+68,2025-01-03 12:40:00,Billing,Why did my monthly fee increase without any prior notification?,Negative,monthly fee increase without prior notification,Positive,0.3182
+69,2025-01-04 15:00:00,Product,"The item I received is clearly a cheap knockoff, not the genuine brand.",Negative,item received clearly cheap knockoff genuine brand,Positive,0.4019
+70,2025-01-05 17:30:00,General Inquiry,Is the blue model coming back in stock anytime soon?,Neutral,blue model coming back stock anytime soon,Neutral,0.0
+71,2025-01-06 09:45:00,Delivery,"The delivery window was 9am-5pm, which is way too broad. I had to take a whole day off.",Negative,delivery window ampm way broad take whole day,Neutral,0.0
+72,2025-01-07 11:30:50,Product,It stopped working right after the warranty expired. How convenient.,Negative,stopped working right warranty expired convenient,Negative,-0.2263
+73,2025-01-08 14:20:00,Service,The instructions on the website for troubleshooting are incorrect.,Negative,instruction website troubleshooting incorrect,Positive,0.1779
+74,2025-01-09 18:00:00,Product,This is not what I ordered. I received a completely different product.,Negative,ordered received completely different product,Neutral,0.0
+75,2025-01-10 10:05:00,Billing,My payment was declined for no reason. My card works fine everywhere else.,Negative,payment declined reason card work fine everywhere else,Positive,0.2023
+76,2025-01-11 13:00:00,Product,Great value for the price. Works as expected.,Positive,great value price work expected,Positive,0.7579
+77,2025-01-12 16:15:00,Delivery,The driver refused to bring the item up to my apartment and left it in the lobby.,Negative,driver refused bring item apartment left lobby,Negative,-0.2732
+78,2025-01-13 19:40:00,Service,The online chat agent ended the conversation before my problem was solved.,Negative,online chat agent ended conversation problem solved,Negative,-0.1531
+79,2025-01-14 11:10:00,Product,"The material feels very cheap and flimsy, I doubt it will last long.",Negative,material feel cheap flimsy doubt last long,Negative,-0.3612
+80,2025-01-15 09:25:00,Billing,You guys are making it impossible to cancel my subscription.,Negative,guy making impossible cancel subscription,Negative,-0.25
+81,2025-01-16 12:50:00,Product,The advertised features do not work as described. This is false advertising.,Negative,advertised feature work described false advertising,Neutral,0.0
+82,2025-01-17 15:00:00,Delivery,My package has been stuck in transit for 10 days.,Negative,package stuck transit day,Negative,-0.25
+83,2025-01-18 18:20:00,Service,I am very happy with the quick and efficient service I received.,Positive,happy quick efficient service received,Positive,0.7579
+84,2025-01-19 10:40:00,Product,"The item looks good, but has a very strong chemical smell.",Negative,item look good strong chemical smell,Positive,0.7351
+85,2025-01-20 14:00:00,Billing,The refund amount I received was incorrect. It was less than what I was told.,Negative,refund amount received incorrect less told,Neutral,0.0
+86,2025-01-21 17:30:00,Product,"The product is okay, but not worth the high price tag.",Negative,product okay worth high price tag,Positive,0.4215
+87,2025-01-22 09:00:00,General Inquiry,What are the dimensions of this item?,Neutral,dimension item,Neutral,0.0
+88,2025-01-23 11:45:00,Service,It took 4 emails to get a simple question answered.,Negative,took email get simple question answered,Neutral,0.0
+89,2025-01-24 16:00:00,Delivery,The item was well-packaged and arrived in perfect condition.,Positive,item wellpackaged arrived perfect condition,Positive,0.5719
+90,2025-01-25 19:10:00,Product,The software is not intuitive at all. Very steep learning curve.,Negative,software intuitive steep learning curve,Neutral,0.0
+91,2025-01-26 12:30:00,Billing,I was charged for a free trial. This is a scam.,Negative,charged free trial scam,Negative,-0.296
+92,2025-01-27 15:15:00,Product,The product broke during the first use. Extremely poor quality.,Negative,product broke first use extremely poor quality,Negative,-0.7346
+93,2025-01-28 10:00:00,Service,The representative hung up on me mid-sentence.,Negative,representative hung midsentence,Neutral,0.0
+94,2025-01-29 13:20:00,Delivery,The delivery service you use is notoriously bad in my area. Please offer other options.,Negative,delivery service use notoriously bad area please offer option,Negative,-0.296
+95,2025-01-30 17:40:00,Product,A key feature stopped working after a software update.,Negative,key feature stopped working software update,Negative,-0.2263
+96,2025-01-31 09:50:00,Billing,The invoice is confusing and difficult to understand.,Negative,invoice confusing difficult understand,Negative,-0.5267
+97,2025-02-01 11:00:00,Product,This was a gift and the recipient loved it!,Positive,gift recipient loved,Positive,0.7783
+98,2025-02-02 14:35:00,Service,There is no phone number listed anywhere for customer support. How am I supposed to get help?,Negative,phone number listed anywhere customer support supposed get help,Positive,0.6908
+99,2025-02-03 18:00:00,Delivery,My order was canceled without any explanation.,Negative,order canceled without explanation,Neutral,0.0
+100,2025-02-04 10:20:00,Product,"The product does its job, but it's nothing special.",Neutral,product job nothing special,Negative,-0.3089
+101,2025-02-05 13:10:15,Product,The 'stainless steel' started rusting after a month.,Negative,stainless steel started rusting month,Neutral,0.0
+102,2025-02-05 16:55:10,Service,Your online FAQ section did not answer my question.,Negative,online faq section answer question,Neutral,0.0
+103,2025-02-06 09:00:05,Delivery,The delivery person was rude and just threw the package on the ground.,Negative,delivery person rude threw package ground,Negative,-0.4588
+104,2025-02-06 11:30:00,Billing,I'm being billed for two accounts but I only have one.,Negative,im billed two account one,Neutral,0.0
+105,2025-02-07 15:15:30,Product,"This is an excellent product, great craftsmanship and it looks beautiful.",Positive,excellent product great craftsmanship look beautiful,Positive,0.9136
+106,2025-02-08 13:20:45,Service,The support team was quick to respond and solved my issue. Great job!,Positive,support team quick respond solved issue great job,Positive,0.836
+107,2025-02-09 10:45:00,Delivery,My package was ripped open when it arrived.,Negative,package ripped open arrived,Neutral,0.0
+108,2025-02-10 19:11:50,Product,The XL size fits like a Medium. Your sizing chart is completely wrong.,Negative,xl size fit like medium sizing chart completely wrong,Positive,0.1548
+109,2025-02-11 11:00:25,Billing,"My coupon code didn't work at checkout, even though it was valid.",Negative,coupon code didnt work checkout even though valid,Neutral,0.0
+110,2025-02-12 16:30:00,General Inquiry,Is this product compatible with Windows 11?,Neutral,product compatible window,Neutral,0.0
+111,2025-02-13 20:15:18,Product,"The phone case doesn't fit my phone properly, it's too loose.",Negative,phone case doesnt fit phone properly loose,Negative,-0.5283
+112,2025-02-14 12:43:45,Service,Your website crashed while I was trying to place an order.,Negative,website crashed trying place order,Neutral,0.0
+113,2025-02-15 08:30:00,Delivery,Fast and efficient delivery. Arrived sooner than expected.,Positive,fast efficient delivery arrived sooner expected,Positive,0.4215
+114,2025-02-16 14:10:30,Billing,I cancelled my service but I'm still getting billed.,Negative,cancelled service im still getting billed,Negative,-0.25
+115,2025-02-17 17:35:00,Product,The instructions were just a series of blurry pictures. Totally unhelpful.,Negative,instruction series blurry picture totally unhelpful,Negative,-0.1027
+116,2025-02-18 09:40:15,Service,The agent seemed like they were reading from a script and didn't listen to my actual problem.,Negative,agent seemed like reading script didnt listen actual problem,Positive,0.5801
+117,2025-02-19 13:25:00,Delivery,The tracking link you sent me doesn't work.,Negative,tracking link sent doesnt work,Neutral,0.0
+118,2025-02-20 18:10:55,Product,Exceeded my expectations. The quality for this price is unbeatable.,Positive,exceeded expectation quality price unbeatable,Neutral,0.0
+119,2025-02-21 21:20:00,Billing,Asking for my bank details to process a refund feels insecure.,Neutral,asking bank detail process refund feel insecure,Negative,-0.4215
+120,2025-02-22 10:55:30,Service,Four days and still no reply to my support email. Terrible service.,Negative,four day still reply support email terrible service,Negative,-0.1027
+121,2025-02-23 15:30:00,Product,The product is advertised as 'silent' but it makes a constant humming noise.,Negative,product advertised silent make constant humming noise,Neutral,0.0
+122,2025-02-24 11:15:40,Delivery,I paid for express shipping and it took over a week to arrive.,Negative,paid express shipping took week arrive,Neutral,0.0
+123,2025-02-25 16:40:00,Product,The handle broke off my mug the first time I used it.,Negative,handle broke mug first time used,Negative,-0.4215
+124,2025-02-26 19:20:10,Service,"The agent was very friendly, but ultimately couldn't solve my problem.",Negative,agent friendly ultimately couldnt solve problem,Positive,0.5948
+125,2025-02-27 10:10:00,Billing,The refund process was smooth and easy. Appreciate it.,Positive,refund process smooth easy appreciate,Positive,0.6808
+126,2025-02-28 14:55:00,Product,The wood finish scratches way too easily.,Negative,wood finish scratch way easily,Positive,0.34
+127,2025-03-01 12:10:15,Delivery,My package was delivered to the wrong address.,Negative,package delivered wrong address,Negative,-0.4767
+128,2025-03-02 09:20:00,Service,Your app keeps crashing every time I open it.,Negative,app keep crashing every time open,Neutral,0.0
+129,2025-03-03 17:45:00,Product,"The product is functional, but the design is very ugly.",Neutral,product functional design ugly,Negative,-0.5106
+130,2025-03-04 20:15:30,Billing,I found a hidden fee in the terms and conditions. Very sneaky.,Negative,found hidden fee term condition sneaky,Negative,-0.2263
+131,2025-03-05 11:45:00,Delivery,The item was just left on my doorstep in plain sight for anyone to steal.,Negative,item left doorstep plain sight anyone steal,Negative,-0.4939
+132,2025-03-06 13:30:00,Product,"The box was sealed, but a crucial part was missing inside.",Negative,box sealed crucial part missing inside,Negative,-0.296
+133,2025-03-07 16:10:45,Service,I have to repeat my issue every time I get transferred to a new agent.,Negative,repeat issue every time get transferred new agent,Neutral,0.0
+134,2025-03-08 18:20:00,Product,The 'waterproof' phone case leaked and damaged my phone.,Negative,waterproof phone case leaked damaged phone,Negative,-0.6369
+135,2025-03-09 10:40:00,Billing,Just a query about the payment options available.,Neutral,query payment option available,Neutral,0.0
+136,2025-03-10 15:10:00,Delivery,"Excellent delivery service, the driver called me before arriving.",Positive,excellent delivery service driver called arriving,Positive,0.5719
+137,2025-03-11 09:50:20,Product,The device gets extremely hot to the touch after a few minutes.,Negative,device get extremely hot touch minute,Neutral,0.0
+138,2025-03-12 12:35:00,Service,Your customer support is clearly outsourced and they have no idea what they're doing.,Negative,customer support clearly outsourced idea theyre,Positive,0.6597
+139,2025-03-13 14:25:55,Product,The app requires way too many permissions. Why does a calculator app need my location?,Negative,app requires way many permission calculator app need location,Neutral,0.0
+140,2025-03-14 17:40:00,Billing,The discount code I had was not applied to the final bill.,Negative,discount code applied final bill,Neutral,0.0
+141,2025-03-15 11:10:00,Product,The materials used feel premium and durable. Very happy with this purchase.,Positive,material used feel premium durable happy purchase,Positive,0.5719
+142,2025-03-16 10:20:10,Delivery,Why do you use a courier that gets such terrible reviews? They lost my package.,Negative,use courier get terrible review lost package,Negative,-0.6597
+143,2025-03-17 13:55:00,Service,The website is so slow and pages take forever to load.,Negative,website slow page take forever load,Neutral,0.0
+144,2025-03-18 16:30:30,Product,The actual product looks nothing like the promotional photos.,Negative,actual product look nothing like promotional photo,Negative,-0.2755
+145,2025-03-19 19:10:00,Billing,It's been two weeks and my refund is still 'processing'.,Negative,two week refund still processing,Neutral,0.0
+146,2025-03-20 09:30:00,Product,Item arrived with a huge scratch across the front.,Negative,item arrived huge scratch across front,Positive,0.3182
+147,2025-03-21 11:50:00,Service,Your company doesn't seem to care about its customers once the sale is made.,Negative,company doesnt seem care customer sale made,Negative,-0.3875
+148,2025-03-22 15:15:15,Delivery,The delivery driver was exceptionally helpful and friendly.,Positive,delivery driver exceptionally helpful friendly,Positive,0.763
+149,2025-03-23 18:40:00,General Inquiry,What is your return address?,Neutral,return address,Neutral,0.0
+150,2025-03-24 10:10:00,Product,"It's an okay product for the price, I guess.",Neutral,okay product price guess,Positive,0.2263
+151,2025-03-25 14:40:00,Billing,You charged my card after I explicitly cancelled the service. This is theft.,Negative,charged card explicitly cancelled service theft,Negative,-0.4215
+152,2025-03-26 17:20:25,Service,Your email support team just sends copy-pasted responses that don't help.,Negative,email support team sends copypasted response dont help,Positive,0.1134
+153,2025-03-27 09:45:00,Product,The plastic components are very brittle and one has already snapped.,Negative,plastic component brittle one already snapped,Neutral,0.0
+154,2025-03-28 12:10:00,Delivery,The package was left with a neighbor without my permission.,Negative,package left neighbor without permission,Neutral,0.0
+155,2025-03-29 16:45:00,Product,The battery life is amazing. It lasts for days!,Positive,battery life amazing last day,Positive,0.5859
+156,2025-03-30 19:10:45,Service,"The agent I spoke with, John, was fantastic. Give him a raise!",Positive,agent spoke john fantastic give raise,Positive,0.5574
+157,2025-03-31 11:30:00,Billing,I was told the total was $50 but my card was charged $65.,Negative,told total card charged,Negative,-0.2023
+158,2025-04-01 13:50:10,Product,The product I received was clearly used and repackaged. It had fingerprints all over it.,Negative,product received clearly used repackaged fingerprint,Positive,0.4019
+159,2025-04-02 15:10:00,General Inquiry,Is this item available for pickup at the Mumbai store?,Neutral,item available pickup mumbai store,Neutral,0.0
+160,2025-04-03 10:40:00,Delivery,My order of frozen goods was left outside and everything melted.,Negative,order frozen good left outside everything melted,Positive,0.4404
+161,2025-04-04 09:10:00,Product,The 'easy-to-assemble' furniture took me 4 hours and the holes didn't line up.,Negative,easytoassemble furniture took hour hole didnt line,Neutral,0.0
+162,2025-04-05 18:25:00,Service,I'm stuck in a loop with your automated phone system. It's infuriating.,Negative,im stuck loop automated phone system infuriating,Negative,-0.6597
+163,2025-04-06 14:15:00,Billing,The price on the shelf was different from the price at the register.,Negative,price shelf different price register,Neutral,0.0
+164,2025-04-07 11:40:00,Product,The color is much duller in person than it appeared online.,Negative,color much duller person appeared online,Negative,-0.4019
+165,2025-04-08 16:35:30,Delivery,I paid for gift wrapping and it arrived unwrapped in a plain brown box.,Negative,paid gift wrapping arrived unwrapped plain brown box,Positive,0.4404
+166,2025-04-09 19:10:00,Product,"This is a well-made, high-quality item. Worth every penny.",Positive,wellmade highquality item worth every penny,Positive,0.2263
+167,2025-04-10 10:20:10,Service,Your website login system is broken. It won't accept my password.,Negative,website login system broken wont accept password,Negative,-0.6467
+168,2025-04-11 12:50:00,Billing,Why was I enrolled in auto-renewal without my consent?,Negative,enrolled autorenewal without consent,Negative,-0.1695
+169,2025-04-12 15:10:00,Product,The item is not compatible with my other devices as advertised.,Negative,item compatible device advertised,Neutral,0.0
+170,2025-04-13 17:40:00,General Inquiry,Do you offer international shipping?,Neutral,offer international shipping,Neutral,0.0
+171,2025-04-14 09:55:00,Delivery,The delivery person damaged my property while making the delivery.,Negative,delivery person damaged property making delivery,Negative,-0.4404
+172,2025-04-15 11:40:50,Product,The product has a major design flaw that makes it difficult to use.,Negative,product major design flaw make difficult use,Negative,-0.3612
+173,2025-04-16 14:30:00,Service,I'm very dissatisfied with the resolution offered by your support team.,Negative,im dissatisfied resolution offered support team,Neutral,0.0258
+174,2025-04-17 18:10:00,Product,This is the third time I've had to replace this product. The quality is consistently poor.,Negative,third time ive replace product quality consistently poor,Negative,-0.4767
+175,2025-04-18 10:15:00,Billing,My account was charged a late fee even though I paid on time.,Negative,account charged late fee even though paid time,Negative,-0.2023
+176,2025-04-19 13:10:00,Product,Works perfectly. Does exactly what it says on the tin.,Positive,work perfectly exactly say tin,Positive,0.6369
+177,2025-04-20 16:25:00,Delivery,My package was supposed to arrive today but now the delivery date has been pushed back a week.,Negative,package supposed arrive today delivery date pushed back week,Neutral,0.0
+178,2025-04-21 19:50:00,Service,The customer service agent was talking over me and not listening.,Negative,customer service agent talking listening,Neutral,0.0
+179,2025-04-22 11:20:00,Product,The material is very thin and tore the first time I wore it.,Negative,material thin tore first time wore,Neutral,0.0
+180,2025-04-23 09:35:00,Billing,I can't find where to cancel my subscription on your confusing website.,Negative,cant find cancel subscription confusing website,Neutral,-0.0413
+181,2025-04-24 12:40:00,Product,The promised features are only available if you buy an expensive add-on.,Negative,promised feature available buy expensive addon,Positive,0.3612
+182,2025-04-25 15:10:00,Delivery,"The package arrived, but it was the wrong item.",Negative,package arrived wrong item,Negative,-0.4767
+183,2025-04-26 18:30:00,Service,Your support team provided a quick and effective solution. Thank you!,Positive,support team provided quick effective solution thank,Positive,0.8625
+184,2025-04-27 10:50:00,Product,"The product is average. It's not bad, but it's not great either.",Neutral,product average bad great either,Positive,0.1531
+185,2025-04-28 14:10:00,Billing,"The refund I received was only a partial refund, but I returned the entire order.",Negative,refund received partial refund returned entire order,Neutral,0.0
+186,2025-04-29 17:40:00,Product,The product stopped charging after two weeks.,Negative,product stopped charging two week,Negative,-0.2263
+187,2025-04-30 09:10:00,General Inquiry,What is the warranty coverage on this?,Neutral,warranty coverage,Neutral,0.0
+188,2025-05-01 11:55:00,Service,The agent promised a callback but I never received one.,Negative,agent promised callback never received one,Positive,0.3612
+189,2025-05-02 16:10:00,Delivery,"The packaging was superb, really protected the item well.",Positive,packaging superb really protected item well,Positive,0.8643
+190,2025-05-03 19:20:00,Product,The user interface is clunky and outdated.,Negative,user interface clunky outdated,Neutral,0.0
+191,2025-05-04 12:40:00,Billing,This company's billing practices are predatory and dishonest.,Negative,company billing practice predatory dishonest,Negative,-0.5719
+192,2025-05-05 15:25:00,Product,The adhesive on the back is not strong enough and it keeps falling off.,Negative,adhesive back strong enough keep falling,Positive,0.4019
+193,2025-05-06 10:10:00,Service,The hold time was surprisingly short and the agent was very efficient.,Positive,hold time surprisingly short agent efficient,Positive,0.6124
+194,2025-05-07 13:30:00,Delivery,I received an empty box. The item was stolen.,Negative,received empty box item stolen,Negative,-0.6124
+195,2025-05-08 17:50:00,Product,A critical component failed and now the entire unit is useless.,Negative,critical component failed entire unit useless,Negative,-0.8126
+196,2025-05-09 09:40:00,Billing,Your prices are much higher than your competitors for the same product.,Negative,price much higher competitor product,Neutral,0.0
+197,2025-05-10 11:10:00,Product,"I'm very pleased with my purchase, will buy again.",Positive,im pleased purchase buy,Positive,0.4404
+198,2025-05-11 14:45:00,Service,There's no option to speak to a supervisor when the agent is unhelpful.,Negative,there option speak supervisor agent unhelpful,Neutral,0.0
+199,2025-05-12 18:10:00,Delivery,The driver called to say he was 'nearby' and then showed up two hours later.,Negative,driver called say nearby showed two hour later,Neutral,0.0
+200,2025-05-13 10:30:00,Product,"The product is okay, but the setup was a real hassle.",Neutral,product okay setup real hassle,Positive,0.2263
+201,2025-05-14 14:20:15,Delivery,My order #12345 has been stuck in 'processing' for 5 days.,Negative,order stuck processing day,Negative,-0.25
+202,2025-05-14 18:35:10,Product,The new software update removed features that I used all the time. Why?,Negative,new software update removed feature used time,Neutral,0.0
+203,2025-05-15 09:22:05,Service,Your customer service is the worst I have ever experienced. No exaggeration.,Negative,customer service worst ever experienced exaggeration,Negative,-0.6249
+204,2025-05-15 11:40:00,Billing,The final price included taxes and fees that were not shown upfront.,Negative,final price included tax fee shown upfront,Neutral,0.0
+205,2025-05-16 15:55:30,Product,The quality of this leather bag is amazing! It smells and feels so premium.,Positive,quality leather bag amazing smell feel premium,Positive,0.5859
+206,2025-05-17 13:10:45,Service,Kudos to the support team for being so responsive on social media.,Positive,kudos support team responsive social medium,Positive,0.8176
+207,2025-05-18 10:45:00,Delivery,The delivery estimate was accurate and the driver was professional.,Positive,delivery estimate accurate driver professional,Neutral,0.0
+208,2025-05-19 19:31:50,Product,The parts don't fit together properly. It's impossible to assemble.,Negative,part dont fit together properly impossible assemble,Negative,-0.2755
+209,2025-05-20 11:20:25,Billing,My gift card balance was wiped out for no reason.,Negative,gift card balance wiped reason,Positive,0.4404
+210,2025-05-21 16:50:00,General Inquiry,Just checking the status of my refund request.,Neutral,checking status refund request,Neutral,0.0
+211,2025-05-22 20:15:18,Product,This 'smart' device is actually very dumb. The features are poorly implemented.,Negative,smart device actually dumb feature poorly implemented,Negative,-0.1531
+212,2025-05-23 12:53:45,Service,Your business hours are too short. I can't call for support after work.,Negative,business hour short cant call support work,Negative,-0.3089
+213,2025-05-24 08:40:00,Delivery,Received my package and it was in perfect condition.,Positive,received package perfect condition,Positive,0.5719
+214,2025-05-25 14:20:30,Billing,I was charged a cancellation fee even though I cancelled during the free trial.,Negative,charged cancellation fee even though cancelled free trial,Positive,0.128
+215,2025-05-26 17:45:00,Product,The product is full of bugs. It feels like it wasn't tested at all before release.,Negative,product full bug feel like wasnt tested release,Positive,0.3612
+216,2025-05-27 09:50:15,Service,The agent was condescending and treated me like I was stupid.,Negative,agent condescending treated like stupid,Negative,-0.2263
+217,2025-05-28 13:35:00,Delivery,The delivery driver marked it as delivered but it's nowhere to be found.,Negative,delivery driver marked delivered nowhere found,Neutral,0.0
+218,2025-05-29 18:20:55,Product,Amazing piece of technology. It just works seamlessly.,Positive,amazing piece technology work seamlessly,Positive,0.5859
+219,2025-05-30 21:30:00,Billing,I'd like to dispute a charge on my account.,Neutral,id like dispute charge account,Negative,-0.0516
+220,2025-05-31 10:45:30,Service,I've been a loyal customer for years and this is how you treat me? Appalling.,Negative,ive loyal customer year treat appalling,Positive,0.5106
+221,2025-06-01 15:40:00,Product,The product's description is intentionally misleading.,Negative,product description intentionally misleading,Negative,-0.4019
+222,2025-06-02 11:25:40,Delivery,"I received a notification that my package was delayed, with no new delivery date.",Negative,received notification package delayed new delivery date,Negative,-0.2263
+223,2025-06-03 16:50:00,Product,The item I received is a counterfeit. This is illegal.,Negative,item received counterfeit illegal,Negative,-0.5574
+224,2025-06-04 19:40:10,Service,The '24/7 support' is a lie. It's just a bot outside of business hours.,Negative,support lie bot outside business hour,Positive,0.4019
+225,2025-06-05 10:20:00,Billing,The refund process was surprisingly quick and painless.,Positive,refund process surprisingly quick painless,Positive,0.5267
+226,2025-06-06 14:45:00,Product,The chair is uncomfortable and gives me back pain.,Negative,chair uncomfortable give back pain,Negative,-0.7096
+227,2025-06-07 12:20:15,Delivery,"My address was correct, but the driver delivered it to a house down the street.",Negative,address correct driver delivered house street,Neutral,0.0
+228,2025-06-08 09:30:00,Service,The mobile app is poorly designed and constantly freezes.,Negative,mobile app poorly designed constantly freeze,Positive,0.0516
+229,2025-06-09 17:55:00,Product,"It works, but it feels like it could break at any moment.",Neutral,work feel like could break moment,Positive,0.3612
+230,2025-06-10 20:35:30,Billing,This company charged me for a service I never signed up for.,Negative,company charged service never signed,Negative,-0.2023
+231,2025-06-11 11:25:00,Delivery,"The item was supposed to be a surprise gift, but it arrived in a box with the product name all over it.",Negative,item supposed surprise gift arrived box product name,Positive,0.6124
+232,2025-06-12 13:40:00,Product,Missing screws and bolts. Now I have to go to the hardware store to finish assembly.,Negative,missing screw bolt go hardware store finish assembly,Negative,-0.3818
+233,2025-06-13 16:20:45,Service,"Every time I call, I get transferred multiple times and have to explain my issue from the beginning.",Negative,every time call get transferred multiple time explain issue beginning,Neutral,0.0
+234,2025-06-14 18:30:00,Product,The waterproof coating started peeling off after one week.,Negative,waterproof coating started peeling one week,Neutral,0.0
+235,2025-06-15 10:50:00,Billing,I am inquiring about a charge from your company on my credit card statement.,Neutral,inquiring charge company credit card statement,Positive,0.3818
+236,2025-06-16 15:20:00,Delivery,The delivery was on time and the product was handled with care.,Positive,delivery time product handled care,Positive,0.4939
+237,2025-06-17 09:40:20,Product,This thing consumes batteries like crazy. It's not energy efficient at all.,Negative,thing consumes battery like crazy energy efficient,Positive,0.6124
+238,2025-06-18 12:45:00,Service,The support team is not empowered to do anything. They just apologize and can't fix the problem.,Negative,support team empowered anything apologize cant fix problem,Positive,0.6551
+239,2025-06-19 14:35:55,Product,The app connected to this product is a privacy nightmare. It asks for too much data.,Negative,app connected product privacy nightmare asks much data,Neutral,0.0
+240,2025-06-20 17:50:00,Billing,The promotional offer was not honored at checkout.,Negative,promotional offer honored checkout,Positive,0.5859
+241,2025-06-21 11:20:00,Product,The build quality is solid and it feels like it will last a long time. Very satisfied.,Positive,build quality solid feel like last long time satisfied,Positive,0.7096
+242,2025-06-22 10:30:10,Delivery,The shipping costs more than the item itself. Ridiculous.,Negative,shipping cost item ridiculous,Negative,-0.3612
+243,2025-06-23 13:45:00,Service,Your website is a mess. It's impossible to find information.,Negative,website mess impossible find information,Negative,-0.3612
+244,2025-06-24 16:40:30,Product,"The real product is a cheap, plastic version of what was shown in the pictures.",Negative,real product cheap plastic version shown picture,Neutral,0.0
+245,2025-06-25 19:20:00,Billing,My refund has been pending for over a month now. Where is my money?,Negative,refund pending month money,Neutral,0.0
+246,2025-06-26 09:40:00,Product,The product arrived broken in the box.,Negative,product arrived broken box,Negative,-0.4767
+247,2025-06-27 11:40:00,Service,Your company has the worst customer service I have ever encountered.,Negative,company worst customer service ever encountered,Negative,-0.6249
+248,2025-06-28 15:25:15,Delivery,The driver was polite and followed my delivery instructions perfectly.,Positive,driver polite followed delivery instruction perfectly,Positive,0.6369
+249,2025-06-29 18:50:00,General Inquiry,What are the dimensions of the packaging?,Neutral,dimension packaging,Neutral,0.0
+250,2025-06-30 10:20:00,Product,"It's not a bad product, but it's definitely overpriced for what it is.",Negative,bad product definitely overpriced,Negative,-0.2023
+251,2025-07-01 14:50:00,Billing,"I was charged an international transaction fee, but your company is based in my country.",Negative,charged international transaction fee company based country,Negative,-0.2023
+252,2025-07-02 17:30:25,Service,Your support agents need to be trained on the products they are supporting.,Negative,support agent need trained product supporting,Positive,0.6808
+253,2025-07-03 09:55:00,Product,The plastic used has a very strong and unpleasant chemical odor.,Negative,plastic used strong unpleasant chemical odor,Positive,0.0516
+254,2025-07-04 12:20:00,Delivery,"The package was left outside my apartment building, not at my door. Anyone could have taken it.",Negative,package left outside apartment building door anyone could taken,Neutral,0.0
+255,2025-07-05 16:55:00,Product,The battery life is excellent and it charges very quickly.,Positive,battery life excellent charge quickly,Positive,0.5719
+256,2025-07-06 19:20:45,Service,"The agent, Sarah, was extremely professional and solved my issue right away.",Positive,agent sarah extremely professional solved issue right away,Positive,0.3353
+257,2025-07-07 11:40:00,Billing,I was overcharged. The item was on sale but I was charged the full price.,Negative,overcharged item sale charged full price,Negative,-0.2023
+258,2025-07-08 13:40:10,Product,The product I received is clearly a return that was sent back out. The box was re-taped.,Negative,product received clearly return sent back box retaped,Positive,0.4019
+259,2025-07-09 15:20:00,General Inquiry,Does this model come in black?,Neutral,model come black,Neutral,0.0
+260,2025-07-10 10:50:00,Delivery,My package has been lost in transit and no one seems to be able to help me.,Negative,package lost transit one seems able help,Positive,0.1027
+261,2025-07-11 09:20:00,Product,The 'quick-start' guide is anything but. The setup is a nightmare.,Negative,quickstart guide anything setup nightmare,Neutral,0.0
+262,2025-07-12 18:35:00,Service,I hate having to go through a bot to get to a person. Just give me a phone number.,Negative,hate go bot get person give phone number,Negative,-0.5267
+263,2025-07-13 14:25:00,Billing,The price changed in my cart between when I added it and when I went to checkout.,Negative,price changed cart added went checkout,Neutral,0.0
+264,2025-07-14 11:50:00,Product,The stitching on the seams is already coming apart after two wears.,Negative,stitching seam already coming apart two wear,Neutral,0.0
+265,2025-07-15 16:45:30,Delivery,"I was home all day, but the courier said they attempted delivery and no one was there. They lied.",Negative,home day courier said attempted delivery one lied,Negative,-0.3818
+266,2025-07-16 19:20:00,Product,This is a fantastic gadget. I use it every day.,Positive,fantastic gadget use every day,Positive,0.5574
+267,2025-07-17 10:30:10,Service,Your return process is designed to make people give up. It's so frustrating.,Negative,return process designed make people give frustrating,Negative,-0.4404
+268,2025-07-18 12:40:00,Billing,My subscription renewed even though I turned off auto-renewal.,Negative,subscription renewed even though turned autorenewal,Neutral,0.0
+269,2025-07-19 15:20:00,Product,The item I received is a cheap imitation of the real product.,Negative,item received cheap imitation real product,Neutral,0.0
+270,2025-07-20 17:50:00,General Inquiry,Is it possible to track my order?,Neutral,possible track order,Neutral,0.0
+271,2025-07-21 09:55:00,Delivery,The delivery window of '8am to 8pm' is completely unreasonable.,Negative,delivery window pm completely unreasonable,Neutral,0.0
+272,2025-07-22 11:50:50,Product,The device constantly disconnects from the Wi-Fi.,Negative,device constantly disconnect wifi,Neutral,0.0
+273,2025-07-23 14:40:00,Service,The information on your website is outdated and incorrect.,Negative,information website outdated incorrect,Neutral,0.0
+274,2025-07-24 18:20:00,Product,"This is my second time buying this. The first one broke, and now the replacement has broken too.",Negative,second time buying first one broke replacement broken,Negative,-0.7096
+275,2025-07-25 10:25:00,Billing,The company charged my card for a higher amount than was authorized.,Negative,company charged card higher amount authorized,Negative,-0.2023
+276,2025-07-26 13:20:00,Product,"It does the job, but it is very noisy.",Negative,job noisy,Negative,-0.1779
+277,2025-07-27 16:35:00,Delivery,The delivery driver was careless and damaged my gate.,Negative,delivery driver careless damaged gate,Negative,-0.6597
+278,2025-07-28 19:40:00,Service,I was promised a follow-up email but it never came.,Negative,promised followup email never came,Positive,0.3612
+279,2025-07-29 11:30:00,Product,The material this is made from gives me a rash.,Negative,material made give rash,Negative,-0.4019
+280,2025-07-30 09:45:00,Billing,Your cancellation process is a maze designed to keep customers subscribed.,Negative,cancellation process maze designed keep customer subscribed,Neutral,0.0
+281,2025-07-31 12:50:00,Product,The advertising for this product is completely dishonest.,Negative,advertising product completely dishonest,Negative,-0.6115
+282,2025-08-01 15:20:00,Delivery,The package was delivered to the wrong apartment.,Negative,package delivered wrong apartment,Negative,-0.4767
+283,2025-08-02 18:40:00,Service,The support team was very understanding and resolved my complaint.,Positive,support team understanding resolved complaint,Positive,0.296
+284,2025-08-03 10:40:00,Product,"The product is fine, but the packaging was excessive and wasteful.",Neutral,product fine packaging excessive wasteful,Positive,0.2023
+285,2025-08-04 14:20:00,Billing,"The refund I received did not include the shipping costs, which it should have.",Negative,refund received include shipping cost,Neutral,0.0
+286,2025-08-05 17:50:00,Product,The item stopped working one day after the return period ended.,Negative,item stopped working one day return period ended,Negative,-0.2263
+287,2025-08-06 09:20:00,General Inquiry,Can you tell me if this is compatible with my device?,Neutral,tell compatible device,Neutral,0.0
+288,2025-08-07 11:45:00,Service,The support agent was not knowledgeable and had to keep asking a supervisor.,Negative,support agent knowledgeable keep asking supervisor,Positive,0.4019
+289,2025-08-08 16:20:00,Delivery,The item was shipped with no padding and arrived broken.,Negative,item shipped padding arrived broken,Negative,-0.4767
+290,2025-08-09 19:30:00,Product,"The software is full of ads, which was not mentioned anywhere.",Negative,software full ad mentioned anywhere,Neutral,0.0
+291,2025-08-10 12:50:00,Billing,This company has the shadiest billing practices I've ever seen.,Negative,company shadiest billing practice ive ever seen,Neutral,0.0
+292,2025-08-11 15:35:00,Product,The product has a major defect that makes it dangerous to use.,Negative,product major defect make dangerous use,Negative,-0.6705
+293,2025-08-12 10:20:00,Service,Your team was very helpful. My problem is solved.,Positive,team helpful problem solved,Positive,0.296
+294,2025-08-13 13:40:00,Delivery,The courier left a 'sorry we missed you' note without even ringing the doorbell.,Negative,courier left sorry missed note without even ringing doorbell,Negative,-0.3612
+295,2025-08-14 17:40:00,Product,The product's performance degraded significantly after just a month of use.,Negative,product performance degraded significantly month use,Negative,-0.4215
+296,2025-08-15 09:50:00,Billing,I was charged for services I did not receive.,Negative,charged service receive,Negative,-0.2023
+297,2025-08-16 11:20:00,Product,An absolutely amazing product. I recommend it to everyone.,Positive,absolutely amazing product recommend everyone,Positive,0.7818
+298,2025-08-17 14:55:00,Service,The company does not stand behind its warranty.,Negative,company stand behind warranty,Neutral,0.0
+299,2025-08-18 18:20:00,Delivery,The delivery fee is exorbitant.,Negative,delivery fee exorbitant,Neutral,0.0
+300,2025-08-19 10:40:00,Product,"The product is fine. Nothing more, nothing less.",Neutral,product fine nothing nothing less,Positive,0.2023
+301,2025-08-20 14:30:15,Billing,Your invoicing is a mess. I can't figure out what I'm paying for.,Negative,invoicing mess cant figure im paying,Negative,-0.3612
+302,2025-08-20 18:45:10,Service,"I have been trying to reach someone for a week. No replies to email, no one answers the phone.",Negative,trying reach someone week reply email one answer phone,Neutral,0.0258
+303,2025-08-21 09:12:05,Product,This is the second item I've received that was defective right out of the box.,Negative,second item ive received defective right box,Negative,-0.4404
+304,2025-08-21 11:20:00,Delivery,The driver threw my package over the fence.,Negative,driver threw package fence,Neutral,0.0
+305,2025-08-22 15:05:30,Product,I'm very impressed with the build quality and the attention to detail.,Positive,im impressed build quality attention detail,Positive,0.4767
+306,2025-08-23 13:00:45,Service,The chat support agent was friendly and fixed my problem instantly.,Positive,chat support agent friendly fixed problem instantly,Positive,0.4939
+307,2025-08-24 10:55:00,Billing,I'm still waiting for a refund that was promised to me three weeks ago.,Negative,im still waiting refund promised three week ago,Positive,0.3612
+308,2025-08-25 19:21:50,Product,The advertised 'long battery life' is a joke. It lasts maybe 3 hours.,Negative,advertised long battery life joke last maybe hour,Positive,0.296
+309,2025-08-26 11:10:25,Delivery,You shipped the wrong color. Now I have to go through the hassle of a return.,Negative,shipped wrong color go hassle return,Negative,-0.4767
+310,2025-08-27 16:40:00,General Inquiry,Could you provide the tracking number for my order?,Neutral,could provide tracking number order,Positive,0.0772
+311,2025-08-28 20:05:18,Service,Your website's password reset feature is broken.,Negative,website password reset feature broken,Negative,-0.4767
+312,2025-08-29 12:33:45,Product,The product feels solid and well-made. I expect it to last.,Positive,product feel solid wellmade expect last,Positive,0.1531
+313,2025-08-30 08:50:00,Billing,"The price online was listed as $20, but I was charged $30.",Negative,price online listed charged,Negative,-0.2023
+314,2025-08-31 14:00:30,Delivery,The delivery arrived much faster than I anticipated. Great service!,Positive,delivery arrived much faster anticipated great service,Positive,0.6249
+315,2025-09-01 17:25:00,Product,The instructions are impossible to understand. It seems they were poorly machine-translated.,Negative,instruction impossible understand seems poorly machinetranslated,Neutral,0.0
+316,2025-09-02 09:30:15,Service,The agent was extremely rude and unhelpful. I am filing a formal complaint.,Negative,agent extremely rude unhelpful filing formal complaint,Negative,-0.6697
+317,2025-09-03 13:15:00,Product,The item I received was damaged during shipping due to poor packaging.,Negative,item received damaged shipping due poor packaging,Negative,-0.7184
+318,2025-09-04 18:00:55,Billing,Why was my account suspended? I paid my bill on time.,Negative,account suspended paid bill time,Negative,-0.4767
+319,2025-09-05 21:10:00,General Inquiry,Is this product available in a larger size?,Neutral,product available larger size,Neutral,0.0
+320,2025-09-06 10:45:30,Service,I am so frustrated with your lack of support. It's like you don't want customers.,Negative,frustrated lack support like dont want customer,Negative,-0.1833
+321,2025-09-07 15:20:00,Product,The product is flimsy and broke the first time I used it.,Negative,product flimsy broke first time used,Negative,-0.4215
+322,2025-09-08 11:05:40,Delivery,My package has been 'out for delivery' for two days now.,Negative,package delivery two day,Neutral,0.0
+323,2025-09-09 16:50:00,Product,The quality of this product has gone down significantly since the last time I bought it.,Negative,quality product gone significantly since last time bought,Neutral,0.0
+324,2025-09-10 19:30:10,Service,The returns portal on your website is not working.,Negative,return portal website working,Neutral,0.0
+325,2025-09-11 10:00:00,Billing,The charge on my card is from your company but I don't recognize the amount.,Negative,charge card company dont recognize amount,Neutral,0.0
+326,2025-09-12 14:45:00,Product,This has to be the best purchase I've made all year. Highly recommend.,Positive,best purchase ive made year highly recommend,Positive,0.7902
+327,2025-09-13 12:00:15,Delivery,The courier left the package in a public lobby instead of bringing it to my apartment door.,Negative,courier left package public lobby instead bringing apartment door,Neutral,0.0258
+328,2025-09-14 09:10:00,Service,"Your app is terrible. It's slow, buggy, and drains my phone battery.",Negative,app terrible slow buggy drain phone battery,Negative,-0.4767
+329,2025-09-15 17:55:00,Product,"It's an adequate product. It functions as intended, but it's not impressive.",Neutral,adequate product function intended impressive,Positive,0.6369
+330,2025-09-16 20:25:30,Billing,I was charged a subscription fee for a service I cancelled months ago.,Negative,charged subscription fee service cancelled month ago,Negative,-0.4215
+331,2025-09-17 11:35:00,Delivery,The delivery driver forged my signature and left the package on the street.,Negative,delivery driver forged signature left package street,Neutral,0.0
+332,2025-09-18 13:20:00,Product,The product arrived with missing parts. I can't even assemble it.,Negative,product arrived missing part cant even assemble,Negative,-0.296
+333,2025-09-19 16:00:45,Service,I'm tired of being transferred from one department to another. Nobody can help me.,Negative,im tired transferred one department another nobody help,Negative,-0.0516
+334,2025-09-20 18:10:00,Product,The 'water-resistant' watch was ruined after I washed my hands.,Negative,waterresistant watch ruined washed hand,Neutral,0.0258
+335,2025-09-21 10:50:00,Billing,Can I get a detailed breakdown of the charges on invoice #78901?,Neutral,get detailed breakdown charge invoice,Neutral,0.0
+336,2025-09-22 15:00:00,Delivery,The package was delivered on time and the contents were secure.,Positive,package delivered time content secure,Positive,0.34
+337,2025-09-23 09:40:20,Product,"The device makes a loud, high-pitched noise whenever it's on.",Negative,device make loud highpitched noise whenever,Neutral,0.0
+338,2025-09-24 12:25:00,Service,Your support agents are friendly but they seem to lack the technical knowledge to solve problems.,Negative,support agent friendly seem lack technical knowledge solve problem,Positive,0.4019
+339,2025-09-25 14:15:55,Product,The app that comes with this product is poorly designed and barely functional.,Negative,app come product poorly designed barely functional,Neutral,0.0
+340,2025-09-26 17:30:00,Billing,The discount that was supposed to be applied to my order is missing.,Negative,discount supposed applied order missing,Negative,-0.296
+341,2025-09-27 11:00:00,Product,The cream gave me an allergic reaction. The 'hypoallergenic' claim is false.,Negative,cream gave allergic reaction hypoallergenic claim false,Negative,-0.296
+342,2025-09-28 10:10:10,Delivery,The shipping fee is almost as much as the product itself. That's ridiculous.,Negative,shipping fee almost much product thats ridiculous,Negative,-0.3612
+343,2025-09-29 13:45:00,Service,Your online help documents are out of date and refer to features that no longer exist.,Negative,online help document date refer feature longer exist,Positive,0.4019
+344,2025-09-30 16:20:30,Product,I'm disappointed. The product I received looks much cheaper than it did in the photos.,Negative,im disappointed product received look much cheaper photo,Negative,-0.4767
+345,2025-10-01 19:00:00,Billing,I've been waiting for my refund for over a month. This is unacceptable.,Negative,ive waiting refund month unacceptable,Negative,-0.4588
+346,2025-10-02 09:20:00,Product,The item arrived with a deep gouge on the surface.,Negative,item arrived deep gouge surface,Neutral,0.0
+347,2025-10-03 11:40:00,Service,Your company's policies are incredibly inflexible and not at all customer-centric.,Negative,company policy incredibly inflexible customercentric,Neutral,0.0
+348,2025-10-04 15:05:15,Delivery,"The driver was polite, professional, and even carried the heavy box inside for me.",Positive,driver polite professional even carried heavy box inside,Neutral,0.0
+349,2025-10-05 18:30:00,General Inquiry,What is the warranty on this appliance?,Neutral,warranty appliance,Neutral,0.0
+350,2025-10-06 10:00:00,Product,The sound quality is tinny and weak. Not what I expected at all.,Negative,sound quality tinny weak expected,Negative,-0.4404
+351,2025-10-07 14:50:00,Billing,The subscription automatically renewed without any warning or notification.,Negative,subscription automatically renewed without warning notification,Positive,0.2584
+352,2025-10-08 17:10:25,Service,I have sent three emails and have not received a single human response.,Negative,sent three email received single human response,Neutral,0.0
+353,2025-10-09 09:55:00,Product,The sizing is completely off. A 'Large' fits like a 'Small'.,Negative,sizing completely large fit like small,Positive,0.6749
+354,2025-10-10 12:00:00,Delivery,The package was delivered to my office on a Saturday when no one was there.,Negative,package delivered office saturday one,Neutral,0.0
+355,2025-10-11 16:35:00,Product,The latest update broke the core functionality of the app. I had to uninstall it.,Negative,latest update broke core functionality app uninstall,Negative,-0.4215
+356,2025-10-12 19:00:45,Service,The hold music is so loud and repetitive it gave me a headache.,Negative,hold music loud repetitive gave headache,Negative,-0.25
+357,2025-10-13 11:20:00,Billing,The credit that was supposed to be on my account is not there.,Negative,credit supposed account,Positive,0.3818
+358,2025-10-14 13:40:10,Product,"The product is good, but the box was crushed during shipping.",Negative,product good box crushed shipping,Neutral,0.0258
+359,2025-10-15 15:00:00,General Inquiry,Is this product compatible with older models?,Neutral,product compatible older model,Neutral,0.0
+360,2025-10-16 10:30:00,Delivery,My pizza arrived cold and the toppings had all slid to one side.,Negative,pizza arrived cold topping slid one side,Neutral,0.0
+361,2025-10-17 09:00:00,Product,The 'rechargeable' battery no longer holds a charge after two months.,Negative,rechargeable battery longer hold charge two month,Neutral,0.0
+362,2025-10-18 18:15:00,Service,It is impossible to get a human on the phone. Your automated system is a trap.,Negative,impossible get human phone automated system trap,Negative,-0.3182
+363,2025-10-19 14:05:00,Billing,The price at the cash register was higher than the tag on the shelf. This is bait and switch.,Negative,price cash register higher tag shelf bait switch,Neutral,0.0
+364,2025-10-20 11:50:00,Product,"The fabric is so thin, it's practically see-through.",Negative,fabric thin practically seethrough,Neutral,0.0
+365,2025-10-21 16:25:30,Delivery,"The courier reported that they couldn't find my address, which is absurd. It's clearly marked.",Negative,courier reported couldnt find address absurd clearly marked,Positive,0.4019
+366,2025-10-22 19:00:00,Product,I am in love with this product! It has simplified my life so much.,Positive,love product simplified life much,Positive,0.6369
+367,2025-10-23 10:10:10,Service,Your return policy is deliberately confusing and difficult. I will not be shopping here again.,Negative,return policy deliberately confusing difficult shopping,Negative,-0.5267
+368,2025-10-24 12:40:00,Billing,Why was there a sudden price hike for my monthly plan? I was not notified.,Negative,sudden price hike monthly plan notified,Neutral,0.0
+369,2025-10-25 15:00:00,Product,"I was sent a used, dirty item instead of a new one. Disgusting.",Negative,sent used dirty item instead new one disgusting,Negative,-0.743
+370,2025-10-26 17:30:00,General Inquiry,I am checking to see if the red version of this item is in stock.,Neutral,checking see red version item stock,Neutral,0.0
+371,2025-10-27 09:45:00,Delivery,A 9-hour delivery window is not acceptable. People have jobs.,Negative,hour delivery window acceptable people job,Positive,0.3182
+372,2025-10-28 11:30:50,Product,The device overheats to a dangerous level. It's a fire hazard.,Negative,device overheats dangerous level fire hazard,Negative,-0.6705
+373,2025-10-29 14:20:00,Service,The troubleshooting steps on your website are wrong and don't work.,Negative,troubleshooting step website wrong dont work,Negative,-0.34
+374,2025-10-30 18:00:00,Product,This is not the item I ordered. The model number is completely different.,Negative,item ordered model number completely different,Positive,0.0772
+375,2025-10-31 10:05:00,Billing,"My credit card was declined by your system, but it works fine everywhere else.",Negative,credit card declined system work fine everywhere else,Positive,0.5267
+376,2025-11-01 13:00:00,Product,It's a good product for the money. No complaints.,Positive,good product money complaint,Positive,0.1779
+377,2025-11-02 16:15:00,Delivery,"The driver left a massive, heavy box blocking my driveway.",Negative,driver left massive heavy box blocking driveway,Negative,-0.3818
+378,2025-11-03 19:40:00,Service,The online chat agent disconnected from me in the middle of our conversation.,Negative,online chat agent disconnected middle conversation,Neutral,0.0
+379,2025-11-04 11:10:00,Product,"The material is cheap, scratchy, and uncomfortable.",Negative,material cheap scratchy uncomfortable,Negative,-0.3818
+380,2025-11-05 09:25:00,Billing,The process to cancel a subscription is intentionally difficult.,Negative,process cancel subscription intentionally difficult,Negative,-0.5423
+381,2025-11-06 12:50:00,Product,The product lacks several key features that were advertised on your website.,Negative,product lack several key feature advertised website,Negative,-0.3182
+382,2025-11-07 15:00:00,Delivery,My package has been lost by the carrier and your company is doing nothing to help.,Negative,package lost carrier company nothing help,Negative,-0.5511
+383,2025-11-08 18:20:00,Service,I am so pleased with the fast and helpful service from your team.,Positive,pleased fast helpful service team,Positive,0.6908
+384,2025-11-09 10:40:00,Product,"The product has a strange, persistent chemical odor that won't go away.",Negative,product strange persistent chemical odor wont go away,Negative,-0.2023
+385,2025-11-10 14:00:00,Billing,The refund I got was for the wrong amount. You shorted me $20.,Negative,refund got wrong amount shorted,Negative,-0.4767
+386,2025-11-11 17:30:00,Product,"For the price, this product is very underwhelming.",Negative,price product underwhelming,Neutral,0.0
+387,2025-11-12 09:00:00,General Inquiry,What is the exact height and width of this bookshelf?,Neutral,exact height width bookshelf,Neutral,0.0
+388,2025-11-13 11:45:00,Service,I had to send five emails just to get a single response.,Negative,send five email get single response,Neutral,0.0
+389,2025-11-14 16:00:00,Delivery,The item was packaged very securely. I appreciate the care taken.,Positive,item packaged securely appreciate care taken,Positive,0.8074
+390,2025-11-15 19:10:00,Product,The user interface is not user-friendly at all. It's confusing.,Negative,user interface userfriendly confusing,Negative,-0.2263
+391,2025-11-16 12:30:00,Billing,You started charging me for a free trial without my permission. That's fraud.,Negative,started charging free trial without permission thats fraud,Positive,0.7485
+392,2025-11-17 15:15:00,Product,The product fell apart after I used it twice. Absolute junk.,Negative,product fell apart used twice absolute junk,Neutral,0.0
+393,2025-11-18 10:00:00,Service,The customer service representative literally hung up on me.,Negative,customer service representative literally hung,Neutral,0.0
+394,2025-11-19 13:20:00,Delivery,Why do you only offer one shipping company? They are terrible in my area.,Negative,offer one shipping company terrible area,Negative,-0.4767
+395,2025-11-20 17:40:00,Product,"After the latest update, a feature I paid for no longer works.",Negative,latest update feature paid longer work,Neutral,0.0
+396,2025-11-21 09:50:00,Billing,Your invoices are difficult to read and lack important details.,Negative,invoice difficult read lack important detail,Negative,-0.4588
+397,2025-11-22 11:00:00,Product,The person I gave this to as a gift absolutely adored it.,Positive,person gave gift absolutely adored,Positive,0.7178
+398,2025-11-23 14:35:00,Service,Why is there no phone number for support? I need to talk to someone.,Negative,phone number support need talk someone,Positive,0.4588
+399,2025-11-24 18:00:00,Delivery,My order was just cancelled with no reason given.,Negative,order cancelled reason given,Negative,-0.25
+400,2025-11-25 10:20:00,Product,"The item is serviceable, but not remarkable in any way.",Neutral,item serviceable remarkable way,Positive,0.5574
+401,2025-11-26 13:10:15,Product,The so-called 'stainless steel' started showing rust spots within a week.,Negative,socalled stainless steel started showing rust spot within week,Neutral,0.0
+402,2025-11-27 16:55:10,Service,The self-help section on your website is completely useless.,Negative,selfhelp section website completely useless,Negative,-0.4754
+403,2025-11-28 09:00:05,Delivery,The delivery driver was aggressive and rude when I asked him a question.,Negative,delivery driver aggressive rude asked question,Negative,-0.5574
+404,2025-11-29 11:30:00,Billing,I have two subscriptions but I am being billed for three.,Negative,two subscription billed three,Neutral,0.0
+405,2025-11-30 15:15:30,Product,This is a beautifully designed product. I'm very happy with it.,Positive,beautifully designed product im happy,Positive,0.8126
+406,2025-12-01 13:20:45,Service,"The support team was fast, efficient, and friendly. A+ service.",Positive,support team fast efficient friendly service,Positive,0.8271
+407,2025-12-02 10:45:00,Delivery,My package was left in the rain and the contents are ruined.,Negative,package left rain content ruined,Negative,-0.4767
+408,2025-12-03 19:11:50,Product,The sizing is a joke. An 'XL' is more like a 'M'. Your chart is wrong.,Negative,sizing joke xl like chart wrong,Positive,0.1531
+409,2025-12-04 11:00:25,Billing,The coupon code said 20% off but it only took 10% off at checkout.,Negative,coupon code said took checkout,Neutral,0.0
+410,2025-12-05 16:30:00,General Inquiry,Is this product compatible with the new operating system?,Neutral,product compatible new operating system,Neutral,0.0
+411,2025-12-06 20:15:18,Product,"The phone case is too big for my phone, it just slips out.",Negative,phone case big phone slip,Neutral,0.0
+412,2025-12-07 12:43:45,Service,Your website checkout page failed and now my cart is empty.,Negative,website checkout page failed cart empty,Negative,-0.6249
+413,2025-12-08 08:30:00,Delivery,The delivery was so fast! It came two days earlier than expected.,Positive,delivery fast came two day earlier expected,Neutral,0.0
+414,2025-12-09 14:10:30,Billing,I cancelled my membership last year and you are still charging my card.,Negative,cancelled membership last year still charging card,Negative,-0.25
+415,2025-12-10 17:35:00,Product,"The assembly instructions consist of a single, blurry diagram.",Negative,assembly instruction consist single blurry diagram,Negative,-0.1027
+416,2025-12-11 09:40:15,Service,The agent was just reading from a script and couldn't answer any specific questions.,Negative,agent reading script couldnt answer specific question,Neutral,0.0
+417,2025-12-12 13:25:00,Delivery,The tracking number you provided does not exist in the carrier's system.,Negative,tracking number provided exist carrier system,Positive,0.0772
+418,2025-12-13 18:10:55,Product,The quality of this item is exceptional. It far exceeded my hopes.,Positive,quality item exceptional far exceeded hope,Positive,0.4404
+419,2025-12-14 21:20:00,Billing,I have a question about a charge from 'Service Inc.' on my statement.,Neutral,question charge service inc statement,Neutral,0.0
+420,2025-12-15 10:55:30,Service,Five business days and not a single reply to my support request.,Negative,five business day single reply support request,Positive,0.4019
+421,2025-12-16 15:30:00,Product,"The product is advertised as being quiet, but it makes a loud grinding noise.",Negative,product advertised quiet make loud grinding noise,Neutral,0.0
+422,2025-12-17 11:15:40,Delivery,I paid for 2-day shipping and it's been over a week.,Negative,paid day shipping week,Neutral,0.0
+423,2025-12-18 16:40:00,Product,The handle on my new suitcase broke the very first time I used it.,Negative,handle new suitcase broke first time used,Negative,-0.4215
+424,2025-12-19 19:20:10,Service,"The agent was nice, but the problem still isn't fixed.",Negative,agent nice problem still isnt fixed,Neutral,0.0258
+425,2025-12-20 10:10:00,Billing,The refund was processed quickly and efficiently. Thank you for the good service.,Positive,refund processed quickly efficiently thank good service,Positive,0.7964
+426,2025-12-21 14:55:00,Product,The finish on the table started chipping off within the first month.,Negative,finish table started chipping within first month,Neutral,0.0
+427,2025-12-22 12:10:15,Delivery,The package was sent to my old address even though I updated it in my profile.,Negative,package sent old address even though updated profile,Neutral,0.0
+428,2025-12-23 09:20:00,Service,Your mobile app is unusable. It crashes upon opening.,Negative,mobile app unusable crash upon opening,Negative,-0.4019
+429,2025-12-24 17:45:00,Product,"It's functional, but the design is clunky and not very aesthetically pleasing.",Neutral,functional design clunky aesthetically pleasing,Positive,0.5267
+430,2025-12-26 20:15:30,Billing,I found several hidden charges on my bill that were not disclosed upfront.,Negative,found several hidden charge bill disclosed upfront,Neutral,0.0
+431,2025-12-27 11:45:00,Delivery,The delivery driver left my package in a puddle.,Negative,delivery driver left package puddle,Neutral,0.0
+432,2025-12-28 13:30:00,Product,"The box was missing the power cord, so I can't even turn the device on.",Negative,box missing power cord cant even turn device,Negative,-0.296
+433,2025-12-29 16:10:45,Service,I keep getting passed around to different agents and no one takes ownership of the issue.,Negative,keep getting passed around different agent one take ownership issue,Neutral,0.0
+434,2025-12-30 18:20:00,Product,The 'waterproof' phone case failed and my phone is now destroyed.,Negative,waterproof phone case failed phone destroyed,Negative,-0.7579
+435,2025-12-31 10:40:00,Billing,I need to inquire about the different payment plans you offer.,Neutral,need inquire different payment plan offer,Neutral,0.0
+436,2026-01-02 15:10:00,Delivery,"The delivery was prompt, and the courier was very professional.",Positive,delivery prompt courier professional,Neutral,0.0
+437,2026-01-03 09:50:20,Product,The device gets dangerously hot during charging.,Negative,device get dangerously hot charging,Negative,-0.4588
+438,2026-01-04 12:35:00,Service,Your customer support seems to be run by bots and people who don't care.,Negative,customer support seems run bot people dont care,Neutral,0.0186
+439,2026-01-05 14:25:55,Product,"The companion app is a disaster. It's slow, buggy, and drains my battery.",Negative,companion app disaster slow buggy drain battery,Negative,-0.6249
+440,2026-01-06 17:40:00,Billing,The promotional discount was not applied correctly to my total.,Negative,promotional discount applied correctly total,Neutral,0.0
+441,2026-01-07 11:10:00,Product,The materials feel very high-end and the craftsmanship is superb.,Positive,material feel highend craftsmanship superb,Positive,0.6249
+442,2026-01-08 10:20:10,Delivery,Why is the shipping charge so high? It discourages me from ordering.,Negative,shipping charge high discourages ordering,Negative,-0.4404
+443,2026-01-09 13:55:00,Service,"Your website is so poorly organized, I can't find what I'm looking for.",Negative,website poorly organized cant find im looking,Neutral,0.0
+444,2026-01-10 16:30:30,Product,The product I got is a cheap plastic imitation of what was advertised.,Negative,product got cheap plastic imitation advertised,Neutral,0.0
+445,2026-01-11 19:10:00,Billing,It has been over two weeks and I am still waiting for my refund to be processed.,Negative,two week still waiting refund processed,Neutral,0.0
+446,2026-01-12 09:30:00,Product,The item arrived with a massive crack down the middle.,Negative,item arrived massive crack middle,Neutral,0.0
+447,2026-01-13 11:50:00,Service,It's clear your company prioritizes new sales over supporting existing customers.,Negative,clear company prioritizes new sale supporting existing customer,Positive,0.6705
+448,2026-01-14 15:15:15,Delivery,The delivery person was fantastic - very cheerful and helpful.,Positive,delivery person fantastic cheerful helpful,Positive,0.872
+449,2025-01-15 18:40:00,General Inquiry,Could you tell me the return policy for sale items?,Neutral,could tell return policy sale item,Neutral,0.0
+450,2025-01-16 10:10:00,Product,"It's okay for the price, but I wouldn't rave about it.",Neutral,okay price wouldnt rave,Positive,0.2263
+451,2025-01-17 14:40:00,Billing,You charged my card after I cancelled my trial. I am reporting this as fraud.,Negative,charged card cancelled trial reporting fraud,Negative,-0.765
+452,2025-01-18 17:20:25,Service,Your email support is just automated replies that don't address my issue.,Negative,email support automated reply dont address issue,Positive,0.4019
+453,2025-01-19 09:45:00,Product,The plastic is so brittle that a piece broke off as I was unboxing it.,Negative,plastic brittle piece broke unboxing,Negative,-0.4215
+454,2025-01-20 12:10:00,Delivery,"My package was left with a neighbor I don't know, without my consent.",Negative,package left neighbor dont know without consent,Positive,0.1262
+455,2025-01-21 16:45:00,Product,The battery life on this is incredible! Lasts for days on a single charge.,Positive,battery life incredible last day single charge,Neutral,0.0
+456,2025-01-22 19:10:45,Service,"The agent I spoke with, Linda, was amazing and deserves a commendation.",Positive,agent spoke linda amazing deserves commendation,Positive,0.5859
+457,2025-01-23 11:30:00,Billing,I was told my total would be $100 but my invoice says $120.,Negative,told total would invoice say,Neutral,0.0
+458,2025-01-24 13:50:10,Product,The item I received had clearly been opened and used before. The seal was broken.,Negative,item received clearly opened used seal broken,Negative,-0.1027
+459,2025-01-25 15:10:00,General Inquiry,Is this item in stock at your Bandra location?,Neutral,item stock bandra location,Neutral,0.0
+460,2025-01-26 10:40:00,Delivery,My order of ice cream arrived completely melted.,Negative,order ice cream arrived completely melted,Neutral,0.0
+461,2025-01-27 09:10:00,Product,The 'easy assembly' furniture had misaligned holes and took me hours.,Negative,easy assembly furniture misaligned hole took hour,Positive,0.4404
+462,2025-01-28 18:25:00,Service,Your automated phone menu is a labyrinth designed to prevent human contact.,Negative,automated phone menu labyrinth designed prevent human contact,Neutral,0.0258
+463,2025-01-29 14:15:00,Billing,The price on the website changed between the time I viewed it and the time I purchased.,Negative,price website changed time viewed time purchased,Neutral,0.0
+464,2025-01-30 11:40:00,Product,The color of the product is completely different from the pictures online.,Negative,color product completely different picture online,Neutral,0.0
+465,2025-01-31 16:35:30,Delivery,I paid for gift wrapping and it came in a standard shipping box.,Negative,paid gift wrapping came standard shipping box,Positive,0.4404
+466,2025-02-01 19:10:00,Product,"This is a well-built, sturdy product. I'm very impressed with the quality.",Positive,wellbuilt sturdy product im impressed quality,Positive,0.4767
+467,2025-02-02 10:20:10,Service,Your website is completely broken on mobile devices. I can't place an order.,Negative,website completely broken mobile device cant place order,Negative,-0.5256
+468,2025-02-03 12:50:00,Billing,Why was I automatically signed up for recurring payments?,Negative,automatically signed recurring payment,Neutral,0.0
+469,2025-02-04 15:10:00,Product,"The product is not compatible with my system, despite claims that it was.",Negative,product compatible system despite claim,Neutral,0.0
+470,2025-02-05 17:40:00,General Inquiry,Do you ship to addresses outside of India?,Neutral,ship address outside india,Neutral,0.0
+471,2025-02-06 09:55:00,Delivery,The courier threw the package onto my balcony and damaged a plant pot.,Negative,courier threw package onto balcony damaged plant pot,Negative,-0.4404
+472,2025-02-07 11:40:50,Product,The product has a serious design flaw that makes it almost unusable.,Negative,product serious design flaw make almost unusable,Negative,-0.0772
+473,2025-02-08 14:30:00,Service,The 'solution' your support team gave me didn't work and they have since stopped responding.,Negative,solution support team gave didnt work since stopped responding,Positive,0.6874
+474,2025-02-09 18:10:00,Product,This is the third faulty unit I have received. Your quality control is nonexistent.,Negative,third faulty unit received quality control nonexistent,Negative,-0.3182
+475,2025-02-10 10:15:00,Billing,My account was debited a late fee but my payment was made on the due date.,Negative,account debited late fee payment made due date,Neutral,0.0
+476,2025-02-11 13:10:00,Product,"It works as advertised. A solid, reliable product.",Positive,work advertised solid reliable product,Positive,0.1531
+477,2025-02-12 16:25:00,Delivery,My delivery date was changed three times without any proactive communication.,Negative,delivery date changed three time without proactive communication,Negative,-0.3252
+478,2025-02-13 19:50:00,Service,The customer service rep was short with me and seemed annoyed by my questions.,Negative,customer service rep short seemed annoyed question,Negative,-0.3818
+479,2025-02-14 11:20:00,Product,The fabric is cheap and started to unravel after one wash.,Negative,fabric cheap started unravel one wash,Neutral,0.0
+480,2025-02-15 09:35:00,Billing,I can't find the 'cancel subscription' button anywhere. This feels like a trap.,Negative,cant find cancel subscription button anywhere feel like trap,Positive,0.2359
+481,2025-02-16 12:40:00,Product,The product is missing key features that are shown in all the video reviews.,Negative,product missing key feature shown video review,Negative,-0.296
+482,2025-02-17 15:10:00,Delivery,I received someone else's order. This is a major screw-up.,Negative,received someone elses order major screwup,Negative,-0.4019
+483,2025-02-18 18:30:00,Service,Your support team was fantastic! They went above and beyond to help me.,Positive,support team fantastic went beyond help,Positive,0.8402
+484,2025-02-19 10:50:00,Product,"The product is just okay. It's not terrible, but I wouldn't buy it again.",Neutral,product okay terrible wouldnt buy,Negative,-0.296
+485,2025-02-20 14:10:00,Billing,The refund I received was incomplete. You didn't refund the tax.,Negative,refund received incomplete didnt refund tax,Neutral,0.0
+486,2025-02-21 17:40:00,Product,The device stopped working completely after a mandatory firmware update.,Negative,device stopped working completely mandatory firmware update,Negative,-0.079
+487,2025-02-22 09:10:00,General Inquiry,What is the warranty period for this item?,Neutral,warranty period item,Neutral,0.0
+488,2025-02-23 11:55:00,Service,An agent said they would call me back in an hour. That was yesterday.,Negative,agent said would call back hour yesterday,Neutral,0.0
+489,2025-02-24 16:10:00,Delivery,The packaging was excellent and kept the fragile item safe.,Positive,packaging excellent kept fragile item safe,Positive,0.765
+490,2025-02-25 19:20:00,Product,The user interface is extremely confusing and poorly laid out.,Negative,user interface extremely confusing poorly laid,Negative,-0.2944
+491,2025-02-26 12:40:00,Billing,Your company's billing practices are deceptive and should be illegal.,Negative,company billing practice deceptive illegal,Negative,-0.5574
+492,2025-02-27 15:25:00,Product,The adhesive strip provided is useless and won't stick to any surface.,Negative,adhesive strip provided useless wont stick surface,Negative,-0.4215
+493,2025-02-28 10:10:00,Service,The hold time was less than a minute and my issue was resolved on the first call.,Positive,hold time less minute issue resolved first call,Positive,0.1119
+494,2025-03-01 13:30:00,Delivery,"I received an empty, open box. My item was stolen in transit.",Negative,received empty open box item stolen transit,Negative,-0.6124
+495,2025-03-02 17:50:00,Product,"A key part failed, rendering the entire expensive product useless.",Negative,key part failed rendering entire expensive product useless,Negative,-0.7269
+496,2025-03-03 09:40:00,Billing,Your prices are significantly higher than all of your competitors.,Negative,price significantly higher competitor,Neutral,0.0
+497,2025-03-04 11:10:00,Product,"I am so happy with this purchase, I've already recommended it to friends.",Positive,happy purchase ive already recommended friend,Positive,0.8271
+498,2025-03-05 14:45:00,Service,"When I asked to speak to a manager, the agent refused and then hung up.",Negative,asked speak manager agent refused hung,Negative,-0.296
+499,2025-03-06 18:10:00,Delivery,"The driver called me to say he was outside, then left before I could get downstairs.",Negative,driver called say outside left could get downstairs,Neutral,0.0
+500,2025-03-07 10:30:00,Product,"The product is adequate, but the setup process was unnecessarily complicated.",Neutral,product adequate setup process unnecessarily complicated,Positive,0.2263
